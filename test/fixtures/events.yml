@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyText
+  location: MyText
+  date: 2013-10-05
+  price: 9.99
+  points: 1
+  category: MyText
+  sponsor: MyText
+
+two:
+  name: MyText
+  location: MyText
+  date: 2013-10-05
+  price: 9.99
+  points: 1
+  category: MyText
+  sponsor: MyText
