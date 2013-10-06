@@ -23,6 +23,7 @@ class EventsController < ApplicationController
 
   # POST /events
   # POST /events.json
+  
   def create
     @event = Event.new(event_params)
 

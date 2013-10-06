@@ -1,5 +1,5 @@
 Learnify::Application.routes.draw do
-  get "welcome/index"
+  get 'welcome/index'
   resources :events
   root 'welcome#index'
 

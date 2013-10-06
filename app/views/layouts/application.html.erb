@@ -15,7 +15,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
-
+    <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
   	<%= stylesheet_link_tag    "application" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
