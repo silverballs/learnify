@@ -15,6 +15,7 @@
 //= require foundation
 //= require turbolinks
 //= require_tree .
+
 Parse.initialize("NYuRjOBqE3YkOCn628Bms4BBPScRMdKUI9i0dXwk", "WfEhOYYmlBpFWw1zQZ5nVH4WN7G127n1WonpH9Db");
 $(function(){ $(document).foundation(); });
 
@@ -35,7 +36,7 @@ evevtObj.set("location", $("#event_location").val());
 evevtObj.save(null, {
   success: function(eventObj) {
   	$("#event_name").val("")
-    alert('Saved Successfully')
+    alert('Saved successfully')
   },
   error: function(ob, err){
   		alert('Error saving the record')
@@ -55,6 +56,8 @@ query.get(eventId, {
   }
 });
 }
+
+
 
 
 function GetEvents () {
@@ -80,3 +83,5 @@ query.get(eventId, {
   }
 });
 }
+
+
